@@ -568,6 +568,29 @@ video {
   }
 }
 
+.fbH2 {
+  bottom: 6rem;
+  right: 20%;
+  margin-top: 1.25rem;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .fbH2 {
+    position: absolute;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 .fbP {
   margin-top: 0.75rem;
   display: none;
